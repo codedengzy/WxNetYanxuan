@@ -1,0 +1,14 @@
+/* pages/newsDatail/newsDatail.wxss */
+.newsDetailWrap{
+    margin: 10rpx 20rpx;
+}
+.title{
+    font-size: 44rpx;
+}
+.picWrap{
+    width: 100%;
+    text-align: center;
+}
+.picWrap .pic{
+    margin: 10rpx 0 0 0;
+}

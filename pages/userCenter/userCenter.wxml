@@ -1,0 +1,6 @@
+<view class="titleBar">用户信息</view>
+<view class="userInfoWrap">
+    <image class="userImg" src="{{userInfo.avatarUrl}}"></image>
+    <view class="userName">{{userInfo.nickName}}</view>
+<button class="btn" type="primary" bindtap="getUserInfo">登录</button>
+</view>

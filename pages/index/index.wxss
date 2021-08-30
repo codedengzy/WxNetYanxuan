@@ -1,0 +1,2 @@
+@import '/template/oneImage/oneImage.wxss';
+@import '/template/threeImage/threeImage.wxss';

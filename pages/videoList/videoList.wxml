@@ -1,0 +1,3 @@
+<!-- 视频新闻列表 -->
+<import src="/template/videoNews/videoNews.wxml"></import>
+<template is="videoNews" data="{{videoNewsList}}"></template> 

@@ -1,0 +1,90 @@
+.title {
+    width: 100%;
+    height: 70rpx;
+    line-height: 70rpx;
+    display: flex;
+    overflow: scroll;
+    padding: 0 20rpx;
+    box-sizing: border-box;
+}
+
+.title .smallTitle {
+    flex: 0 0 125rpx;
+}
+
+.dorpDownMent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80rpx;
+    height: 80rpx;
+    background: #fff;
+    box-sizing: border-box;
+    padding:12rpx 0 0 28rpx;
+    z-index: 99;
+}
+
+@font-face {
+    font-family: "iconfont";
+    /* Project id 2748902 */
+    src: url('//at.alicdn.com/t/font_2748902_v733dq83pu.woff2?t=1629812824841') format('woff2'),
+        url('//at.alicdn.com/t/font_2748902_v733dq83pu.woff?t=1629812824841') format('woff'),
+        url('//at.alicdn.com/t/font_2748902_v733dq83pu.ttf?t=1629812824841') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 34rpx;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xialajiantou:before {
+    content: "\e638";
+}
+
+.icon-ico:before {
+    content: "\e646";
+}
+/* 遮罩 */
+.mask{
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    z-index: 88;
+}
+/* 内容显示罩 */
+.openDropDown{
+    width: 100%;
+    height: 500rpx;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 89;
+    box-sizing: border-box;
+    padding: 10rpx 20rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.openDropDown .colTitle{
+    width: 160rpx;
+    height: 60rpx;
+    border: 1px solid #ddd;
+    border-radius: 30rpx;
+    line-height: 60rpx;
+    text-align: center;
+}
+.openDropDown .clickTitle{
+    width: 100%;
+    margin: 10rpx 0 0 0;
+    padding: 0 0 0 20rpx;
+    box-sizing: border-box;
+    color: rgb(104, 100, 100);
+}

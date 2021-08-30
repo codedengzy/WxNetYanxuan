@@ -1,0 +1,10 @@
+<template name="videoNews">
+    <view class="videoNews" wx:for="{{videoNewsList}}" wx:key="inx">
+        <view class="videoNewsTitle">
+            {{item.title}}
+        </view>
+        <video class="videoNewsVideo" controls
+            poster="{{item.pic}}"
+            src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+    </view>
+</template>

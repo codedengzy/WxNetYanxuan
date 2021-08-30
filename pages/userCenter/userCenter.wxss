@@ -1,0 +1,19 @@
+/* pages/userCenter/userCenter.wxss */
+.titleBar{
+    width: 100%;
+    text-align: center;
+}
+.userInfoWrap{
+    width: 100%;
+    height:150rpx;
+    line-height:150rpx;
+    text-align: center;
+}
+.userInfoWrap .userImg{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 100%;
+}
+.btn{
+    margin-bottom: 150rpx;
+}

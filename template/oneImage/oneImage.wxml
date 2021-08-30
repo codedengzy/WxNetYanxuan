@@ -1,0 +1,19 @@
+<!-- 单个图片新闻列表 -->
+<template name="oneImage">
+    <view class="oneImage" wx:for="{{oneImageData}}" wx:key="idx">
+        <view class="titleWrap">
+        <navigator url="/pages/newsDatail/newsDatail?title={{item.title}}&desc={{item.desc}}&pic={{item.pic}}">
+        
+            <view class="newTitle">
+                {{item.title}}
+            </view>
+        </navigator>
+
+            <view class="titleSource">
+                来源 13小时前
+            </view>
+        </view>
+        <image class="titleImg" src="{{item.pic}}">
+        </image>
+    </view>
+</template>

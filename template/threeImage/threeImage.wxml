@@ -1,0 +1,15 @@
+<template name="threeImage">
+    <view class="threeImage">
+        <view class="threeImageTitle">
+            标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三标题三
+        </view>
+        <view class="imageList">
+            <image class="titleImg" src="http://i1.hdslb.com/bfs/archive/cb5c1be708dfe79e3010444ad0012e7112747305.jpg">
+            </image>
+            <image class="titleImg" src="http://i1.hdslb.com/bfs/archive/cb5c1be708dfe79e3010444ad0012e7112747305.jpg">
+            </image>
+            <image class="titleImg" src="http://i1.hdslb.com/bfs/archive/cb5c1be708dfe79e3010444ad0012e7112747305.jpg">
+            </image>
+        </view>
+    </view>
+</template>

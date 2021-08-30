@@ -1,0 +1,7 @@
+<view class="newsDetailWrap">
+    <view class="title">{{title}}</view>
+    <view class="desc">{{desc}}</view>
+    <view class="picWrap">
+        <image class="pic" src="{{pic}}"></image>
+    </view>
+</view>

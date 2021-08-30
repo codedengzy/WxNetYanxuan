@@ -1,0 +1,8 @@
+<titleNavBar></titleNavBar>
+<!-- 引入单个图片新闻列表 -->
+<import src="/template/oneImage/oneImage.wxml"></import>
+<template is="oneImage" data="{{oneImageData}}"></template>
+
+<!-- 三个图片
+<import src="/template/threeImage/threeImage.wxml"></import>
+<template is="threeImage"></template>-->

@@ -1,0 +1,43 @@
+/* 单个图片新闻列表 */
+.oneImage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 30rpx 0;
+    padding-left: 40rpx;
+    border: 1rpx solid #666;
+    box-sizing: border-box;
+    padding: 10rpx 20rpx;
+}
+
+.oneImage .titleWrap {
+    width: 70%;
+    height: 150rpx;
+    position: relative;
+}
+
+.oneImage .titleWrap .newTitle {
+    width: 93%;
+    height: 100rpx;
+    font-size: 36rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+
+.oneImage .titleWrap .titleSource {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 28rpx;
+    color: #999;
+}
+
+.oneImage .titleImg {
+    width: 246rpx;
+    height: 150rpx;
+}

@@ -1,0 +1,24 @@
+/* 视频新闻列表 */
+.videoNews{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10rpx 20rpx;
+    max-width: 0 0 30rpx 0;
+    padding-bottom: 40rpx;
+    border-bottom: 1rpx solid #666;
+}
+.videoNews .videoNewsTitle{
+    width: 100%;
+    height: 100rpx;
+    font-size: 36rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.videoNews .videoNewsVideo{
+    width: 100%;
+}
